@@ -77,7 +77,7 @@ st.markdown("""
 
 # 2. CHAVE DA API E CONFIGURAÇÕES INICIAIS
 # COLE SUA CHAVE DA API REAL AQUI:
-api_key = "AIzaSyB1mb-15qA4t0Hck7HETunmkiCX6KrfcH0"
+api_key = st.secrets["GEMINI_KEY"]
 data_aniversario = datetime.date(2026, 3, 23)
 hoje = datetime.date.today()
 
