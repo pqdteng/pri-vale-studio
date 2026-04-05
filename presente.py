@@ -239,4 +239,4 @@ if st.button("Gerar Planejamento Estratégico", type="primary", use_container_wi
                 st.markdown(f"<div class='result-box'>{resposta.text}</div>", unsafe_allow_html=True)
                 
             except Exception as e:
-                st.error("Ocorreu uma instabilidade na conexão. Clique no botão novamente.")
+                st.error(f"Erro real: {e}")
